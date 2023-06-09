@@ -17,6 +17,7 @@ import {
     starbucks,
     carrent,
     jobit,
+    screenrockets,
     tripguide,
     threejs,
     postgresql,
@@ -143,97 +144,105 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Cozi Homes",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        " This web platform offers users the ability to explore and reserve a diverse selection of houses based on their preferences. Additionally, users can list their own properties, allowing others to reserve them and generate extra income.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "HTML5",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Ruby on Rails",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PostgreSQL ",
+          color: "green-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/cilfonegabriel/cozy-homes-front-end?organization=cilfonegabriel&organization=cilfonegabriel",
     },
     {
-      name: "Job IT",
+      name: "Bookstore",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This project is a simple Bookstore built using React and Redux. It utilizes an API to extract data and manages it through the website. The Bookstore allows users to view, add, and remove books.",
       tags: [
         {
-          name: "react",
+          name: "ruby",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "HTML5",
           color: "pink-text-gradient",
         },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        }
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/cilfonegabriel/App-Blog",
     },
     {
-      name: "Trip Guide",
+      name: "Crypto Metrics.",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Crypto Metrics is a mobile application developed using JavaScript, React, and Redux. It utilizes the CoinStats API to display a list of cryptocurrencies and their market capitalization.",
       tags: [
         {
-          name: "nextjs",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "React ",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Redux",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/cilfonegabriel/crypto-metrics",
     },
+    {
+        name: "Space Travelers' Hub.",
+        description:
+          "This WebApp consists of three pages: rockets, missions, and My profile. Users can reserve rockets and join special missions with SpaceX company.",
+        tags: [
+          {
+            name: "JavaScript",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "CSS",
+            color: "green-text-gradient",
+          },
+          {
+            name: "HTML5",
+            color: "pink-text-gradient",
+          },
+        ],
+        image: screenrockets,
+        source_code_link: "https://github.com/cilfonegabriel/space-travelers",
+      },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

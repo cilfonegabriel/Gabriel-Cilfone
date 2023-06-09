@@ -30,6 +30,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import screenrockets from "./screenrockets.png";
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   jobit,
   tripguide,
   postgresql,
-  mysql
+  mysql,
+  screenrockets
 };
