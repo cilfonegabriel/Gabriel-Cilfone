@@ -14,15 +14,13 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
     starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    postgresql,
+    mysql,
   } from "../assets";
   
   export const navLinks = [
@@ -57,6 +55,7 @@ import {
       title: "Data Scientist",
       icon: creator,
     },
+    
   ];
   
   const technologies = [
@@ -107,64 +106,39 @@ import {
     {
       name: "figma",
       icon: figma,
+    },    
+    {
+      name: "postgresql",
+      icon: postgresql,
     },
     {
-      name: "docker",
-      icon: docker,
-    },
+      name: "mysql",
+      icon: mysql,
+    }
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Mentor (Volunteer)",
+      company_name: "Microverse",
       icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "January 2022 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        " Mentored three junior web developers weekly, providing technical support through code reviews using Zoom and Slack as primary tools.",
+        " Proposed improvements to code organization to improve code quality and overall performance by 10%",
+        " Provided advice and tips on maintaining motivation, resulting in the successful longevity of six students in the program.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Full Stack Development",
+      company_name: "Microverse",
+      icon: starbucks,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "October 2022 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        " Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux.",
+        " Developed skills in remote pair programming using GitHub, industry-standard git-flow, and daily standups to communicate and collaborate with international remote developers.",
       ],
     },
   ];
