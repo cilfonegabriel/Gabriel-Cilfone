@@ -144,7 +144,32 @@ import {
     },
   ];
   
-
+  const testimonials = [
+    {
+      testimonial:
+        "Gabriel is an exceptional coding partner with a wealth of technical knowledge and experience. He is a creative problem-solver who consistently delivers high-quality work, and his dedication to his craft is truly impressive. I have had the pleasure of collaborating with Gabriel on several projects and can say with confidence that he is a true professional in every sense of the word. I would highly recommend Gabriel for any coding collaboration - his expertise and passion for his work make him an asset to any team..",
+      name: "Paul Sáenz Sucre",
+      designation: "Full-stack Developer",
+      company: "Microverse",
+      image: "https://avatars.githubusercontent.com/u/10566417?v=4",
+    },
+    {
+      testimonial:
+        "Gabriel is a remarkable individual who has made a lasting impact on me and everyone else he works with. His talent, work ethic, and positive attitude are truly inspiring, and I have no doubt that he will be successful in any future endeavors. I wholeheartedly recommend Gabriel to anyone seeking a talented and dedicated full stack web developer who is also an amazing colleague and friend.",
+      name: "Francisco Quintero",
+      designation: "Full-stack Developer",
+      company: "Microverse",
+      image: "https://avatars.githubusercontent.com/u/90111138?v=4",
+    },
+    {
+      testimonial:
+        "It is my pleasure to recommend Mr. Gabriel Sucre who worked with me at microverse as a full-stack developer. He is a very determined, well-qualified, and intelligent individual. He is passionate about writing codes and solving different problems through the development of creative and innovative software. He is also a delight to work with a team player with a positive attitude and interpersonal relationships all the way. I wouldn t hesitate to work with him again if the opportunity arose.",
+      name: "Pierre Barba",
+      designation: "Full-stack Developer",
+      company: "Microverse",
+      image: "https://avatars.githubusercontent.com/u/99061965?v=4",
+    },
+  ];
   
   const projects = [
     {
@@ -168,10 +193,6 @@ import {
           name: "Ruby on Rails",
           color: "blue-text-gradient",
         },
-        {
-          name: "PostgreSQL ",
-          color: "green-text-gradient",
-        },
       ],
       image: carrent,
       source_code_link: "https://github.com/cilfonegabriel/cozy-homes-front-end?organization=cilfonegabriel&organization=cilfonegabriel",
@@ -179,7 +200,7 @@ import {
     {
       name: "Bookstore",
       description:
-        "This project is a simple Bookstore built using React and Redux. It utilizes an API to extract data and manages it through the website. The Bookstore allows users to view, add, and remove books.",
+        "This project is a simple Bookstore built using React and Redux. It utilizes an API to extract data and manages it through the website. The Bookstore allows users to view, add, and remove books. Build with Ruby, JavaScript, HTLM5 and CSS",
       tags: [
         {
           name: "ruby",
@@ -204,7 +225,7 @@ import {
     {
       name: "Crypto Metrics.",
       description:
-        "Crypto Metrics is a mobile application developed using JavaScript, React, and Redux. It utilizes the CoinStats API to display a list of cryptocurrencies and their market capitalization.",
+        "Crypto Metrics is a mobile application developed using JavaScript, React, and Redux. It utilizes the CoinStats API to display a list of cryptocurrencies and their market capitalization.  Build with React and Redux, CSS and HTML5",
       tags: [
         {
           name: "JavaScript",
