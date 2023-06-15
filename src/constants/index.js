@@ -269,31 +269,6 @@ import {
         source_code_link: "https://github.com/cilfonegabriel/Budget-App",
         live_demo_link: "https://budget-app-gqyi.onrender.com/",
       },
-      {
-        name: "Cozi Homes",
-        description:
-          " This web platform offers users the ability to explore and reserve a diverse selection of houses based on their preferences. Additionally, users can list their own properties, allowing others to reserve them and generate extra income.",
-        tags: [
-          {
-            name: "react",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "CSS",
-            color: "green-text-gradient",
-          },
-          {
-            name: "HTML5",
-            color: "pink-text-gradient",
-          },
-          {
-            name: "Ruby on Rails",
-            color: "blue-text-gradient",
-          },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/cilfonegabriel/cozy-homes-front-end?organization=cilfonegabriel&organization=cilfonegabriel",
-      },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
