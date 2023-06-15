@@ -163,7 +163,7 @@ import {
     },
     {
       testimonial:
-        "It is my pleasure to recommend Mr. Gabriel Sucre who worked with me at microverse as a full-stack developer. He is a very determined, well-qualified, and intelligent individual. He is passionate about writing codes and solving different problems through the development of creative and innovative software. He is also a delight to work with a team player with a positive attitude and interpersonal relationships all the way. I wouldn t hesitate to work with him again if the opportunity arose.",
+        "It is my pleasure to recommend Mr. Gabriel Cilfone who worked with me at microverse as a full-stack developer. He is a very determined, well-qualified, and intelligent individual. He is passionate about writing codes and solving different problems through the development of creative and innovative software. He is also a delight to work with a team player with a positive attitude and interpersonal relationships all the way. I wouldn t hesitate to work with him again if the opportunity arose.",
       name: "Pierre Barba",
       designation: "Full-stack Developer",
       company: "Microverse",
@@ -172,31 +172,6 @@ import {
   ];
   
   const projects = [
-    {
-      name: "Cozi Homes",
-      description:
-        " This web platform offers users the ability to explore and reserve a diverse selection of houses based on their preferences. Additionally, users can list their own properties, allowing others to reserve them and generate extra income.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "HTML5",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Ruby on Rails",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/cilfonegabriel/cozy-homes-front-end?organization=cilfonegabriel&organization=cilfonegabriel",
-    },
     {
       name: "Bookstore",
       description:
@@ -220,7 +195,8 @@ import {
         }
       ],
       image: jobit,
-      source_code_link: "https://github.com/cilfonegabriel/App-Blog",
+      source_code_link: "https://github.com/cilfonegabriel/bookstore",
+      live_demo_link: "https://bookstore-0ob6.onrender.com/",
     },
     {
       name: "Crypto Metrics.",
@@ -242,6 +218,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/cilfonegabriel/crypto-metrics",
+      live_demo_link:"https://cripto-metrics.onrender.com/",
     },
     {
         name: "Space Travelers' Hub.",
@@ -263,6 +240,32 @@ import {
         ],
         image: screenrockets,
         source_code_link: "https://github.com/cilfonegabriel/space-travelers",
+        live_demo_link:"https://beautiful-starship-2d3890.netlify.app/",
+      },
+      {
+        name: "Cozi Homes",
+        description:
+          " This web platform offers users the ability to explore and reserve a diverse selection of houses based on their preferences. Additionally, users can list their own properties, allowing others to reserve them and generate extra income.",
+        tags: [
+          {
+            name: "react",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "CSS",
+            color: "green-text-gradient",
+          },
+          {
+            name: "HTML5",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "Ruby on Rails",
+            color: "blue-text-gradient",
+          },
+        ],
+        image: carrent,
+        source_code_link: "https://github.com/cilfonegabriel/cozy-homes-front-end?organization=cilfonegabriel&organization=cilfonegabriel",
       },
   ];
   
