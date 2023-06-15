@@ -31,6 +31,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import screenrockets from "./screenrockets.png";
+import budget from "./budget.png";
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   tripguide,
   postgresql,
   mysql,
-  screenrockets
+  screenrockets,
+  budget
 };

@@ -22,6 +22,7 @@ import {
     threejs,
     postgresql,
     mysql,
+    budget,
   } from "../assets";
   
   export const navLinks = [
@@ -241,6 +242,32 @@ import {
         image: screenrockets,
         source_code_link: "https://github.com/cilfonegabriel/space-travelers",
         live_demo_link:"https://beautiful-starship-2d3890.netlify.app/",
+      },      
+      {
+        name: "Budget",
+        description:
+          " Budd-get is a user-friendly app for managing personal finances. Create custom categories and track transactions effortlessly. Set goals, stay motivated, and make informed financial decisions.",
+        tags: [
+          {
+            name: "rails",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "CSS",
+            color: "green-text-gradient",
+          },
+          {
+            name: "HTML5",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "javascript",
+            color: "blue-text-gradient",
+          },
+        ],
+        image: budget,
+        source_code_link: "https://github.com/cilfonegabriel/Budget-App",
+        live_demo_link: "https://budget-app-gqyi.onrender.com/",
       },
       {
         name: "Cozi Homes",
