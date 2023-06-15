@@ -23,6 +23,8 @@ import {
     postgresql,
     mysql,
     budget,
+    linkedin,
+    github,
   } from "../assets";
   
   export const navLinks = [
@@ -142,6 +144,19 @@ import {
         " Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux.",
         " Developed skills in remote pair programming using GitHub, industry-standard git-flow, and daily standups to communicate and collaborate with international remote developers.",
       ],
+    },
+  ];
+
+  const socials = [
+    {
+      id: "linkedin",
+      title: "https://www.linkedin.com/in/gabriel-cilfone/?locale=en_US",
+      logo: linkedin,
+    },
+    {
+      id: "github",
+      title: "https://github.com/cilfonegabriel",
+      logo: github,
     },
   ];
   
@@ -271,4 +286,4 @@ import {
       },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { socials,services, technologies, experiences, testimonials, projects };

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+import { navLinks, socials } from "../constants";
 import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
@@ -62,6 +62,15 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          {socials.map((social) => (
+            <li 
+              key={social.id} 
+              className={`text-[18px] font-medium cursor-pointer`}
+              onClick={() => window.open(social.title, "_blank")}
+            >
+              <img src={social.logo} className='w-4 h-4 object-contain mt-1 hover:mt-0 hover:w-5 hover:h-5' />
+            </li>
+          ))}
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -92,6 +101,19 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+               <div>
+                <ul className='list none flex flex-row justify-end items-start gap-3'>
+                  {socials.map((social) => (
+                    <li 
+                      key={social.id} 
+                      className={`text-[18px] font-medium cursor-pointer`}
+                      onClick={() => window.open(social.title, "_blank")}
+                    >
+                      <img src={social.logo} className='w-4 h-4 object-contain mt-1 hover:mt-0 hover:w-5 hover:h-5' />
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </ul>
           </div>
         </div>
