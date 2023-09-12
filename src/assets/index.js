@@ -33,6 +33,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import screenrockets from "./screenrockets.png";
 import budget from "./budget.png";
+import clinic from "./clinic.png";
+
 
 export {
   logo,
@@ -66,5 +68,6 @@ export {
   mysql,
   screenrockets,
   budget,
+  clinic,
   linkedin
 };
