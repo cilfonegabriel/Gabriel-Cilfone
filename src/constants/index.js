@@ -23,6 +23,7 @@ import {
     postgresql,
     mysql,
     budget,
+    clinic,
     linkedin,
     github,
   } from "../assets";
@@ -283,6 +284,32 @@ import {
         image: budget,
         source_code_link: "https://github.com/cilfonegabriel/Budget-App",
         live_demo_link: "https://budget-app-gqyi.onrender.com/",
+      },
+      {
+        name: "Patient Manager",
+        description:
+          " Web application built with React and tailwind used to manage patients in a veterinary clinic.",
+        tags: [
+          {
+            name: "React",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Tailwind",
+            color: "green-text-gradient",
+          },
+          {
+            name: "JavaScript",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "HTML",
+            color: "blue-text-gradient",
+          },
+        ],
+        image: clinic,
+        source_code_link: "https://github.com/cilfonegabriel/appointment-react",
+        live_demo_link: "https://earnest-unicorn-443f33.netlify.app/",
       },
   ];
   
