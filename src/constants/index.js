@@ -23,6 +23,7 @@ import {
     mysql,
     budget,
     clinic,
+    budgetControl,
     linkedin,
     github,
   } from "../assets";
@@ -309,6 +310,32 @@ import {
         image: clinic,
         source_code_link: "https://github.com/cilfonegabriel/appointment-react",
         live_demo_link: "https://earnest-unicorn-443f33.netlify.app/",
+      },
+      {
+        name: "Budget Control",
+        description:
+          "Web application built with React used to control an expense budget.",
+        tags: [
+          {
+            name: "React",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "JavaScript",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "HTML",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "CSS",
+            color: "green-text-gradient",
+          },
+        ],
+        image: budgetControl,
+        source_code_link: "https://github.com/cilfonegabriel/budget-control/tree/dev/budget-control",
+        live_demo_link: "https://650a2f16de9fe8654850d9cb--grand-vacherin-07da4b.netlify.app/",
       },
   ];
   
