@@ -34,7 +34,7 @@ import tripguide from "./tripguide.png";
 import screenrockets from "./screenrockets.png";
 import budget from "./budget.png";
 import clinic from "./clinic.png";
-
+import budgetControl from "./budgetControl.png";
 
 export {
   logo,
@@ -69,5 +69,6 @@ export {
   screenrockets,
   budget,
   clinic,
+  budgetControl,
   linkedin
 };
