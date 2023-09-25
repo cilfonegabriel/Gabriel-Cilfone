@@ -24,6 +24,7 @@ import {
     budget,
     clinic,
     budgetControl,
+    cyptoQuote,
     linkedin,
     github,
   } from "../assets";
@@ -336,6 +337,32 @@ import {
         image: budgetControl,
         source_code_link: "https://github.com/cilfonegabriel/budget-control/tree/dev/budget-control",
         live_demo_link: "https://650a2f16de9fe8654850d9cb--grand-vacherin-07da4b.netlify.app/",
+      },
+      {
+        name: "Cryptocurrency Quoter",
+        description:
+          "With this application you can quote a cryptocurrency instantly selected from different currencies.",
+        tags: [
+          {
+            name: "React",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "JavaScript",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "HTML",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "CSS",
+            color: "green-text-gradient",
+          },
+        ],
+        image: cyptoQuote,
+        source_code_link: "https://github.com/cilfonegabriel/cryptocurrency-quoter",
+        live_demo_link: "https://cilfonegabriel.github.io/cryptocurrency-quoter/",
       },
   ];
   

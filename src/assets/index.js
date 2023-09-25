@@ -35,6 +35,7 @@ import screenrockets from "./screenrockets.png";
 import budget from "./budget.png";
 import clinic from "./clinic.png";
 import budgetControl from "./budgetControl.png";
+import cyptoQuote from "./cyptoQuote.png";
 
 export {
   logo,
@@ -70,5 +71,6 @@ export {
   budget,
   clinic,
   budgetControl,
+  cyptoQuote,
   linkedin
 };
