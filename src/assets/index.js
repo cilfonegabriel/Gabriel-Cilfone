@@ -36,6 +36,7 @@ import budget from "./budget.png";
 import clinic from "./clinic.png";
 import budgetControl from "./budgetControl.png";
 import cyptoQuote from "./cyptoQuote.png";
+import guitarla from "./guitarla.png";
 
 export {
   logo,
@@ -72,5 +73,6 @@ export {
   clinic,
   budgetControl,
   cyptoQuote,
+  guitarla,
   linkedin
 };
