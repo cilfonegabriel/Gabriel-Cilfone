@@ -25,6 +25,7 @@ import {
     clinic,
     budgetControl,
     cyptoQuote,
+    guitarla,
     linkedin,
     github,
   } from "../assets";
@@ -364,6 +365,32 @@ import {
         source_code_link: "https://github.com/cilfonegabriel/cryptocurrency-quoter",
         live_demo_link: "https://cilfonegabriel.github.io/cryptocurrency-quoter/",
       },
+      {
+        name: "GuitarLA",
+        description:
+          "Online guitar store with a focus on fluid user experience, shopping cart, blog and efficient media management with Cloudinary. PostgreSQL database for robust product management.",
+        tags: [
+          {
+            name: "NextJs",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "JavaScript",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "HTML",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "CSS",
+            color: "green-text-gradient",
+          },
+        ],
+        image: guitarla,
+        source_code_link: "https://github.com/cilfonegabriel/guitarla-nextjs",
+        live_demo_link: "https://guitarla-nextjs-psi.vercel.app/",
+      }
   ];
   
   export { socials,services, technologies, experiences, testimonials, projects };
