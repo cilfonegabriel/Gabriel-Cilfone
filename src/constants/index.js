@@ -27,6 +27,7 @@ import {
     cyptoQuote,
     guitarla,
     linkedin,
+    insurance,
     github,
   } from "../assets";
   
@@ -142,7 +143,7 @@ import {
       company_name: "Microverse",
       icon: starbucks,
       iconBg: "#E6DEDD",
-      date: "October 2022 - June 2023",
+      date: "October 2022 - October 2023",
       points: [
         " Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux.",
         " Developed skills in remote pair programming using GitHub, industry-standard git-flow, and daily standups to communicate and collaborate with international remote developers.",
@@ -390,7 +391,33 @@ import {
         image: guitarla,
         source_code_link: "https://github.com/cilfonegabriel/guitarla-nextjs",
         live_demo_link: "https://guitarla-nextjs-psi.vercel.app/",
-      }
+      },
+      {
+        name: "Insurance Quoter",
+        description:
+          "A React web app to get car insurance quotes. It uses the Context API to manage the global state of the form and offers an intuitive user experience with interactive features.",
+        tags: [
+          {
+            name: "React",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "JavaScript",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "HTML",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Tailwind",
+            color: "green-text-gradient",
+          },
+        ],
+        image: insurance,
+        source_code_link: "https://github.com/cilfonegabriel/insurance-quoter",
+        live_demo_link: "https://insurance-quoter-mkg5oqrtw-gabriels-projects-636b023b.vercel.app/",
+      },
   ];
   
   export { socials,services, technologies, experiences, testimonials, projects };
