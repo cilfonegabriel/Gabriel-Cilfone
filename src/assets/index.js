@@ -38,6 +38,7 @@ import budgetControl from "./budgetControl.png";
 import cyptoQuote from "./cyptoQuote.png";
 import guitarla from "./guitarla.png";
 import insurance from "./insurance.png";
+import drinks from "./Drinks.png";
 
 export {
   logo,
@@ -76,5 +77,6 @@ export {
   cyptoQuote,
   guitarla,
   insurance,
+  drinks,
   linkedin
 };
