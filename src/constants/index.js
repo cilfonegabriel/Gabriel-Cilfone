@@ -28,6 +28,7 @@ import {
     guitarla,
     linkedin,
     insurance,
+    drinks,
     github,
   } from "../assets";
   
@@ -417,6 +418,32 @@ import {
         image: insurance,
         source_code_link: "https://github.com/cilfonegabriel/insurance-quoter",
         live_demo_link: "https://insurance-quoter-mkg5oqrtw-gabriels-projects-636b023b.vercel.app/",
+      },
+      {
+        name: "Drink Finder",
+        description:
+          "Is a web application that allows you to search for drinks and view their recipes through a modal window. The application connects to an API to obtain data and information about the drinks. It is built with React, Vite and uses Context API for state management. It also uses Bootstrap for UI design and styling.",
+        tags: [
+          {
+            name: "React Vite",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "JavaScript",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "Bootstrap",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "HTML",
+            color: "green-text-gradient",
+          },
+        ],
+        image: drinks,
+        source_code_link: "https://github.com/cilfonegabriel/drink-finder-react",
+        live_demo_link: "https://drink-finder-react-fawn.vercel.app/",
       },
   ];
   
