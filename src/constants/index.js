@@ -29,6 +29,7 @@ import {
     linkedin,
     insurance,
     drinks,
+    kiosk,
     github,
   } from "../assets";
   
@@ -444,6 +445,32 @@ import {
         image: drinks,
         source_code_link: "https://github.com/cilfonegabriel/drink-finder-react",
         live_demo_link: "https://drink-finder-react-fawn.vercel.app/",
+      },
+      {
+        name: "Kiosk App",
+        description:
+          " It serves as a kiosk solution with a client-side interface for placing orders and a server-side system to manage and fulfill those orders. The app ensures a seamless user experience, real-time updates, and efficient data handling.Users can place orders, receive order confirmation, and track the preparation process. The system streamlines the order-to-delivery process, calculating the total amount to be paid.",
+        tags: [
+          {
+            name: "NextJs",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Tailwind",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "Prisma",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "MySQL",
+            color: "green-text-gradient",
+          },
+        ],
+        image: kiosk,
+        source_code_link: "https://github.com/cilfonegabriel/kioskapp-nextjs",
+        live_demo_link: "https://kioskapp-nextjs-production.up.railway.app/",
       },
   ];
   
