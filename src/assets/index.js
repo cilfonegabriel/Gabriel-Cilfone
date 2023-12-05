@@ -79,5 +79,6 @@ export {
   guitarla,
   insurance,
   drinks,
+  kiosk,
   linkedin
 };
