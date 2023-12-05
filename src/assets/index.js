@@ -39,6 +39,7 @@ import cyptoQuote from "./cyptoQuote.png";
 import guitarla from "./guitarla.png";
 import insurance from "./insurance.png";
 import drinks from "./Drinks.png";
+import kiosk from "./kioskapp.png";
 
 export {
   logo,
@@ -78,5 +79,6 @@ export {
   guitarla,
   insurance,
   drinks,
+  kiosk,
   linkedin
 };
