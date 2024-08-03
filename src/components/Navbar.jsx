@@ -43,11 +43,13 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Gabriel &nbsp;
-            <span className='sm:block hidden'> | Developer</span>
-          </p>
+          <div className='w-40 h-20 flex items-center justify-center'>
+            <img 
+              src={logo} 
+              alt='logo' 
+              className='w-30 h-30 ' 
+            />
+          </div>
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>

@@ -19,6 +19,7 @@ const ProjectCard = ({
   source_code_link,
   live_demo_link
 }) => {
+  
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -103,7 +104,6 @@ const Works = () => {
           technical versatility, and project management proficiency.
         </motion.p>
       </div>
-
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard

@@ -26,7 +26,10 @@ import mysql from "./tech/mysql.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import professional from "./company/professional.png";
 import tesla from "./company/tesla.png";
+import betaloop from "./company/betaloop.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -40,6 +43,7 @@ import guitarla from "./guitarla.png";
 import insurance from "./insurance.png";
 import drinks from "./Drinks.png";
 import kiosk from "./kioskapp.png";
+import properatyds from "./properatyds.jpg";
 
 export {
   logo,
@@ -80,5 +84,8 @@ export {
   insurance,
   drinks,
   kiosk,
-  linkedin
+  linkedin,
+  professional,
+  betaloop,
+  properatyds
 };

@@ -31,6 +31,9 @@ import {
     drinks,
     kiosk,
     github,
+    professional,
+    betaloop,
+    properatyds,
   } from "../assets";
   
   export const navLinks = [
@@ -129,11 +132,33 @@ import {
   
   const experiences = [
     {
+      title: "Front End Developer",
+      company_name: "Betaloop",
+      icon: betaloop,
+      iconBg: "#E6DEDD",
+      date: "September 2023 - June 2024",
+      points: [
+        " Junior Front End Developer experienced in React and Tailwind CSS, with backend skills in Node.js",
+        " Developed reusable components, integrated RESTful APIs, and optimized application performance.",
+        " I applied state management improvements and developed authentication services, enhancing team efficiency and security.",
+      ],
+    },
+    {
+      title: "Full Stack Developer",
+      company_name: "HIGHLIGHTED PERSONAL PROJECTS",
+      icon: professional,
+      iconBg: "#E6DEDD",
+      date: "October 2022 - July 2024",
+      points: [
+        " Mastered intermediate and advanced topics in full-stack development while building 20+ full-stack projects.",
+      ],
+    },
+    {
       title: "Mentor (Volunteer)",
       company_name: "Microverse",
       icon: starbucks,
       iconBg: "#E6DEDD",
-      date: "January 2022 - June 2023",
+      date: "November 2022 - October 2023",
       points: [
         " Mentored three junior web developers weekly, providing technical support through code reviews using Zoom and Slack as primary tools.",
         " Proposed improvements to code organization to improve code quality and overall performance by 10%",
@@ -472,6 +497,46 @@ import {
         source_code_link: "https://github.com/cilfonegabriel/kioskapp-nextjs",
         live_demo_link: "https://kioskapp-nextjs-production.up.railway.app/",
       },
+      {
+        name: "Properaty",
+        description:
+          " A predictive model was developed to estimate property prices with high accuracy. Using Random Forest with depths max_depth=45 and max_depth=80, accuracy scores of 0.803 were obtained on test data. K-Means Clustering was also applied to identify patterns in property locations and characteristics, using the optimal number of clusters obtained from the elbow graph.",
+        tags: [
+          {
+            name: "Python",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Machine Learning",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "Analytics",
+            color: "blue-text-gradient",
+          },
+        ],
+        image: properatyds,
+        source_code_link: "https://github.com/cilfonegabriel/Properati-2/blob/main/Proyecto%202.ipynb",
+        live_demo_link: "https://github.com/cilfonegabriel/Properati-2/blob/main/Proyecto%202.ipynb",
+      },
+      {
+        name: "Predicting Traffic Flow at the Illia Highway Toll Booth",
+        description:
+          " A predictive model was developed to estimate traffic flow at the Illia for 2021. Using a neural network approach with an architecture of 3 hidden layers and 64 neurons per layer, accuracy scores of 0.85 were achieved on the test data. Support Vector Regression was applied to identify patterns in traffic flow, optimizing the model with hyperparameters tuned through cross-validation to enhance prediction accuracy.",
+        tags: [
+          {
+            name: "Python",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Machine and Deep Learning",
+            color: "pink-text-gradient",
+          },
+        ],
+        image: properatyds,
+        source_code_link: "https://github.com/cilfonegabriel/Peaje-1/blob/main/Flujo-VehicularBsAs.ipynb",
+        live_demo_link: "https://github.com/cilfonegabriel/Peaje-1/blob/main/Flujo-VehicularBsAs.ipynb",
+      }
   ];
   
   export { socials,services, technologies, experiences, testimonials, projects };
