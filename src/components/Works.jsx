@@ -75,7 +75,9 @@ const ProjectCard = ({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-blue-500 text-white px-6 py-3 rounded-lg shadow-lg text-lg font-medium">
+            <button 
+              className="bg-[#7029B6] text-white px-6 py-3 rounded-lg shadow-lg text-lg font-medium hover:bg-[#5d1d8b] transition-colors duration-300"
+            >
               Live Demo
             </button>
           </a>
@@ -89,14 +91,14 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} text-center`}>My work</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Projects.</h2>
       </motion.div>
 
-      <div className="w-full flex">
+      <div className="w-full flex justify-center">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-center"
         >
           Through these examples, I showcase my capacity to tackle complex
           challenges, adapt to different technologies, and effectively manage
@@ -104,7 +106,7 @@ const Works = () => {
           technical versatility, and project management proficiency.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 justify-center">
         {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}

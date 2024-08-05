@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import React from "react";
 import { Tilt } from 'react-tilt';
 import { motion } from "framer-motion";
@@ -21,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-center items-center flex-col'
       >
         <img
           src={icon}
@@ -41,12 +39,14 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>About me.</h2>
+        <h2 className={`${styles.sectionHeadText} text-center`}>
+          About me.
+        </h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-2xl mx-auto leading-[30px] text-center'
       >
         As a software developer with 2+ years of experience working with technology. 
         I am driven by my passion for learning new skills and technologies. I have a 
@@ -55,7 +55,8 @@ const About = () => {
         solutions and innovations for current and next-generation complex problems 
         using lines of code has been honed through years of experience.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+
+      <div className='mt-20 flex flex-wrap gap-12 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
